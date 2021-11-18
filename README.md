@@ -8,7 +8,7 @@ Traditional  keys are:
 * Limit access to key owners
 
 ## Proposed Solution
-#Smart secured Lock system with:
+Smart secured Lock system with:
 * keypad  to enter your pin 
 * Motion sensor to open lamp
 * camera to send a photo in case of wrong password for three times 
