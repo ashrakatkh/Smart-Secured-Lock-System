@@ -23,5 +23,4 @@
 * MCU
 
 # System Block Diagram
-
 ![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/72893623/142475750-f525a755-3b48-42ca-98c0-f31a19548c6d.png)
