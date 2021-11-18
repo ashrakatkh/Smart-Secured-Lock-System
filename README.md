@@ -15,6 +15,7 @@ Smart secured Lock system with:
 
 
 ## Hardware Components:
+
 * Motion sensor: PIR
 ![kit_pir_new](https://user-images.githubusercontent.com/79912650/142500713-ab3985d1-eb5a-430b-801d-b1238ec2121a.jpg)
 * Camera + Wifi: ESP32-camera
