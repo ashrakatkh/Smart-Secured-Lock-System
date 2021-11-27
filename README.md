@@ -16,7 +16,8 @@ Smart secured Lock system with:
 
 
 ## Hardware Components:
-![image](https://user-images.githubusercontent.com/72893623/143669368-18c91485-1d2d-45c2-b644-dabdf9961fcb.png)
+![image](https://user-images.githubusercontent.com/72893623/143673083-8263de9f-b8ff-45a2-8655-3f077c83531c.png)
+
 
 
 ## System Block Diagram
