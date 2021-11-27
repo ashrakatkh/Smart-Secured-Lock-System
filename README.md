@@ -20,7 +20,7 @@ Smart secured Lock system with:
 
 
 ## System Block Diagram
-![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/72893623/142475750-f525a755-3b48-42ca-98c0-f31a19548c6d.png)
+![Embedded_project](https://user-images.githubusercontent.com/79912650/143672655-c7f22813-642c-4c53-a92b-fae39fb25447.png)
 
 ## Progress
 * We were able to bring all hardware components from workshop except for electric strike
