@@ -28,7 +28,7 @@ Smart secured Lock system with:
 * We built the system using cubemx on FreeRtos
 * We connected the MCU to the bluetooth using UART
 * We developed the logic for unlocking the door in case of the user enetering a right password
-* We develooped the logic for  producing an Alert in case of user entering the password wrong for three times
+* We developed the logic for  producing an Alert in case of user entering the password wrong for three times
 * Progress I video Link: https://drive.google.com/file/d/1lyq_JVk-_vPWQCBuOJyWCBBWV3k5FAVf/view?usp=sharing
 
 ## Timeline:
