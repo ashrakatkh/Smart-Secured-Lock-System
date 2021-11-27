@@ -28,4 +28,8 @@ Smart secured Lock system with:
 * We connected the MCU to the bluetooth using UART
 * We developed the logic for unlocking the door in case of the user enetering a right password
 * We develooped the logic for  producing an Alert in case of user entering the password wrong for three times
+* Progress I video Link: https://drive.google.com/file/d/1lyq_JVk-_vPWQCBuOJyWCBBWV3k5FAVf/view?usp=sharing
+
+## Timeline:
+![WhatsApp Image 2021-11-27 at 9 40 29 AM](https://user-images.githubusercontent.com/79912650/143672870-61a3287c-9d7d-415c-80f5-151356e83c21.jpeg)
 
