@@ -20,33 +20,6 @@ Smart secured Lock system with:
 ## Hardware Components:
 ![image](https://user-images.githubusercontent.com/72893623/143673083-8263de9f-b8ff-45a2-8655-3f077c83531c.png)
 
-## System Block Diagram
-![Embedded_project](https://user-images.githubusercontent.com/79912650/143672655-c7f22813-642c-4c53-a92b-fae39fb25447.png)
-
-## Progress I:
-* We were able to bring all hardware components from workshop except for electric strike
-* We built the system using cubemx on FreeRtos
-* We connected the MCU to the bluetooth using UART
-* We developed the logic for unlocking the door in case of the user enetering a right password
-* We developed the logic for  producing an Alert in case of user entering the password wrong for three times
-* Progress I video Link: https://drive.google.com/file/d/1lyq_JVk-_vPWQCBuOJyWCBBWV3k5FAVf/view?usp=sharing
-
-## Progress II:
-
-### Motion Sensor PIR 
-* Understand Motion sensor and how it works
-* Test motion sensor 
-* Connect motion sensor with our circuit 
-* Connect the led to the output of the motion sensor, so it lights when someone comes 
-
-### ESP32 Cam
-* Understand how camera works
-* Download arduino IDE and use it to program camera and to have  web server connection
-* Connect camera with mcu
-* Program Camera to take photo when GPIO4 is high and connect GPIO4 to mcu GPIO output A5 which is high when the password is entered wrong for three consecutive times
-
-
-## Components Usage Refrence:
 1.	STM32l432kc
 
 ![image](https://www.st.com/bin/ecommerce/api/image.PF263436.en.feature-description-include-personalized-no-cpn-large.jpg)
@@ -100,6 +73,35 @@ Smart secured Lock system with:
 ![SP](https://user-images.githubusercontent.com/60285497/144701982-5dfc3c32-8351-4595-962f-dc3ae2c6a48f.jpg)
  
    a.	A speaker is used to clearly play the sound generated from the MP3 Mini Player
+
+## System Block Diagram
+![Embedded_project](https://user-images.githubusercontent.com/79912650/143672655-c7f22813-642c-4c53-a92b-fae39fb25447.png)
+
+## Progress I:
+* We were able to bring all hardware components from workshop except for electric strike
+* We built the system using cubemx on FreeRtos
+* We connected the MCU to the bluetooth using UART
+* We developed the logic for unlocking the door in case of the user enetering a right password
+* We developed the logic for  producing an Alert in case of user entering the password wrong for three times
+* Progress I video Link: https://drive.google.com/file/d/1lyq_JVk-_vPWQCBuOJyWCBBWV3k5FAVf/view?usp=sharing
+
+## Progress II:
+
+### Motion Sensor PIR 
+* Understand Motion sensor and how it works
+* Test motion sensor 
+* Connect motion sensor with our circuit 
+* Connect the led to the output of the motion sensor, so it lights when someone comes 
+
+### ESP32 Cam
+* Understand how camera works
+* Download arduino IDE and use it to program camera and to have  web server connection
+* Connect camera with mcu
+* Program Camera to take photo when GPIO4 is high and connect GPIO4 to mcu GPIO output A5 which is high when the password is entered wrong for three consecutive times
+
+
+## Components Usage Refrence:
+
 
 ### PIR Sensor
 *Hardware:*
