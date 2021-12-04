@@ -77,6 +77,12 @@ a.	A relay module is used to control the 12v electric strike by receiving signal
 a.	A speaker is used to clearly play the sound generated from the MP3 Mini Player
 
 ### PIR Sensor
+*Hardware:*
+![pir](https://user-images.githubusercontent.com/72893623/144701244-761ec933-ca68-4a69-a43a-fc79aee4be14.jpeg)
+* The PIR has 3 pins: the vdd, the GND and the output
+* To enable PIR, we connect its vdd to 5v output of MCU, its GND pin to the GND pin of MCU and its output to MCU input pin PB0 and led
+* The led is connected to 100 ohm resistor to reduce current to avoid its burning
+
 
 ### ESP32 Cam
 *Hardware:*
