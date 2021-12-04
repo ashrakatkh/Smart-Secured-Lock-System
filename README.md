@@ -60,6 +60,7 @@ Smart secured Lock system with:
 
 
    a.	ESP32-CAM is used in different functionalities of the system. It contains the camera, OV260 camera module, that is used for capturing the image of the intruder. It              contains a Bluetooth module to read the password from the user and a Wi-Fi module that will be used to send the image of the intruder over the internet to the webserver. 
+  
    b.	When the password is entered incorrectly for three times the microcontroller will set a GPIO pin high that is connected to a GPIO pin in the ESP32-CAM. If this pin is            high, then an image will be taken and sent to the web server. 
 3.	PIR motion detection sensor 
 
@@ -67,12 +68,15 @@ Smart secured Lock system with:
 
 
    a.	PIR sensor is used to detect the exitance of someone in front of the door which is the triggering event for the system. The PIR sensor wase chosen over other occupancy          sensors because it uses the infrared radiation related to emitted heat to get the difference between background heat and heat emitted by moving object. This way of              sensing eliminates unnecessary triggering of the system by any moving object and triggers it when a human shows up in front of the door.
+  
    b.	The sensor senses the existence of a human then it sets its digital output high for a specific duration then it drives it low again 
+   
    c.	The rang within which the sensor detects human activities can be adjusted. It ranges from 3 meters to 7 meters. 
+   
    d.	At this phase we left the mode and the sensitivity rage as default.
 4.	USB-to-TTL Module
 
-![for-arduino-usb-to-rs232-ttl-pl2303hx-auto](https://user-images.githubusercontent.com/60285497/144701915-c1fca865-a817-498d-97c3-9e45a77ed586.jpg)
+![41LgYDO6bmL _AC_UL210_SR210,210_](https://user-images.githubusercontent.com/60285497/144702082-5b2308a6-3e94-4251-8310-a55d1c036465.jpg)
 
    a.	This module is used to communicate with the ESP32-CAM module during programing and debugging. 
 
