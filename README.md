@@ -32,6 +32,19 @@ Smart secured Lock system with:
 
 ## Progress II:
 
+### Motion Sensor PIR 
+* Understand Motion sensor and how it works
+* Test motion sensor 
+* Connect motion sensor with our circuit 
+* Connect the led to the output of the motion sensor, so it lights when someone comes 
+
+### ESP32 Cam
+* Understand how camera works
+* Download arduino IDE and use it to program camera and to have  web server connection
+* Connect camera with mcu
+* Program Camera to take photo when GPIO4 is high and connect GPIO4 to mcu GPIO output A5 which is high when the password is entered wrong for three consecutive times
+
+
 ## Components Usage Refrence:
 ### PIR Sensor
 
