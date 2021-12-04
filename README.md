@@ -14,10 +14,11 @@ Smart secured Lock system with:
 * buzzer to produce an alert sound in case of wrong password for three times
 * camera to send a photo in case of wrong password for three times 
 
+## Software Components:
+![sw_components](https://user-images.githubusercontent.com/79912650/144701500-cd07eb85-9777-4510-a015-72ce3d1c522b.png)
 
 ## Hardware Components:
 ![image](https://user-images.githubusercontent.com/72893623/143673083-8263de9f-b8ff-45a2-8655-3f077c83531c.png)
- 
 
 ## System Block Diagram
 ![Embedded_project](https://user-images.githubusercontent.com/79912650/143672655-c7f22813-642c-4c53-a92b-fae39fb25447.png)
@@ -47,8 +48,7 @@ Smart secured Lock system with:
 
 ## Components Usage Refrence:
 1.	STM32l432kc
-
-![image](https://www.st.com/bin/ecommerce/api/image.PF263436.en.feature-description-include-personalized-no-cpn-large.jpg)
+ ![image](https://www.st.com/bin/ecommerce/api/image.PF263436.en.feature-description-include-personalized-no-cpn-large.jpg)
 a.	 STM32l432kc is the microcontroller used in Smart-Secured-Lock-System
 b.	It is an ARM cortex M4 based processor that is used to get the data from the sensors, such as PIR, process it and control the actuators, such as the relay, based on the given data.
 2.	ESP32-CAM Development Board
@@ -95,14 +95,16 @@ Note: while uploading the chip, GPIO 0 must be connected to ground.
 * Note: There are different models for the ESP32 cam, the one we are using is the AI thinker
 
 *Software:*
-* Arduino IDE
-* HTML code 
+* For the software, to connect the ESP32 to wifi you will need to download two libraries and add them to the Arduino IDE: ESPAsyncWebServer which requires AsyncTCP
+* You will need to have an HTML code for the webpage you want to display.
+* You can use  Arduino IDE Serial Monitor to make the IP address appear on it after pressing the reset button.
 
-## Timeline:
-![WhatsApp Image 2021-11-27 at 9 40 29 AM](https://user-images.githubusercontent.com/79912650/143672870-61a3287c-9d7d-415c-80f5-151356e83c21.jpeg)
 
 ## Demo
 ### Circuit: 
 ![cirrcuit](https://user-images.githubusercontent.com/72893623/144700974-b3fc6eb1-14aa-4cde-aaba-31d21f1f79ae.jpeg)
 
 video link:https://drive.google.com/file/d/1MOrTH0CufxyeCBV7rKbK48qbX1alhv68/view?usp=sharing
+
+## Timeline:
+![timeline](https://user-images.githubusercontent.com/79912650/144701475-2e2e0939-c0b8-454d-a3e0-8abb63f451fd.png)
