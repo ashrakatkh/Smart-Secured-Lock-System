@@ -55,7 +55,8 @@ Smart secured Lock system with:
 
 5.	LED
 
-![LED5MM](https://user-images.githubusercontent.com/60285497/144702235-28562922-4cf8-48d4-be9e-ff37bcc45107.png)
+![5mm-diffused-water-clear-500x500](https://user-images.githubusercontent.com/60285497/144702288-741abfb3-2334-4dc3-af1d-33c6605c796e.jpg)
+
 
    a.	LEDs are used as a visual alert to inform the resident about the existence of an intruder.
 6.	MP3 Mini Player
