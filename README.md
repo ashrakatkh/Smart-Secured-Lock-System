@@ -48,6 +48,7 @@ Smart secured Lock system with:
 
 ## Components Usage Refrence:
 1.	STM32l432kc
+
 ![image](https://www.st.com/bin/ecommerce/api/image.PF263436.en.feature-description-include-personalized-no-cpn-large.jpg)
 
     a. STM32l432kc is the microcontroller used in Smart-Secured-Lock-System
