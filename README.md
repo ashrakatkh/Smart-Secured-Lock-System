@@ -47,7 +47,7 @@ Smart secured Lock system with:
 
 ## Components Usage Refrence:
 1.	STM32l432kc
- ![image](https://www.google.com/search?q=STM32l432kc&sxsrf=AOaemvItxoURgbvZaw55Vbx_rsMjuAZl8g:1638602073283&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiA0IW0zMn0AhW2iv0HHWKGAPMQ_AUoAXoECAIQAw&biw=1366&bih=625&dpr=1#imgrc=GdkVP1NfgHnewM)
+ ![image](https://www.st.com/en/evaluation-tools/nucleo-l432kc.html)
 a.	 STM32l432kc is the microcontroller used in Smart-Secured-Lock-System
 b.	It is an ARM cortex M4 based processor that is used to get the data from the sensors, such as PIR, process it and control the actuators, such as the relay, based on the given data.
 2.	ESP32-CAM Development Board
