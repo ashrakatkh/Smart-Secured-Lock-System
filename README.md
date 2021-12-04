@@ -18,7 +18,6 @@ Smart secured Lock system with:
 ![sw_components](https://user-images.githubusercontent.com/79912650/144701500-cd07eb85-9777-4510-a015-72ce3d1c522b.png)
 
 ## Hardware Components:
-![image](https://user-images.githubusercontent.com/72893623/143673083-8263de9f-b8ff-45a2-8655-3f077c83531c.png)
 
 1.	STM32l432kc
 
