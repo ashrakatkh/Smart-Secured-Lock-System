@@ -48,19 +48,22 @@ Smart secured Lock system with:
 
 ## Components Usage Refrence:
 1.	STM32l432kc
- ![image](https://www.st.com/bin/ecommerce/api/image.PF263436.en.feature-description-include-personalized-no-cpn-large.jpg)
-a.	 STM32l432kc is the microcontroller used in Smart-Secured-Lock-System
-b.	It is an ARM cortex M4 based processor that is used to get the data from the sensors, such as PIR, process it and control the actuators, such as the relay, based on the given data.
+![image](https://www.st.com/bin/ecommerce/api/image.PF263436.en.feature-description-include-personalized-no-cpn-large.jpg)
+
+    a. STM32l432kc is the microcontroller used in Smart-Secured-Lock-System
+    b.	It is an ARM cortex M4 based processor that is used to get the data from the sensors, such as PIR, process it and control the actuators, such as the relay, based on the          given data.
 2.	ESP32-CAM Development Board
- 
-a.	ESP32-CAM is used in different functionalities of the system. It contains the camera, OV260 camera module, that is used for capturing the image of the intruder. It contains a Bluetooth module to read the password from the user and a Wi-Fi module that will be used to send the image of the intruder over the internet to the webserver. 
-b.	When the password is entered incorrectly for three times the microcontroller will set a GPIO pin high that is connected to a GPIO pin in the ESP32-CAM. If this pin is high, then an image will be taken and sent to the web server. 
+![esp32_cam](https://user-images.githubusercontent.com/60285497/144701594-a0dca91d-e736-4b81-b18b-a47df962c27c.jpg)
+
+    a.	ESP32-CAM is used in different functionalities of the system. It contains the camera, OV260 camera module, that is used for capturing the image of the intruder. It              contains a Bluetooth module to read the password from the user and a Wi-Fi module that will be used to send the image of the intruder over the internet to the webserver. 
+    b.	When the password is entered incorrectly for three times the microcontroller will set a GPIO pin high that is connected to a GPIO pin in the ESP32-CAM. If this pin is            high, then an image will be taken and sent to the web server. 
 3.	PIR motion detection sensor 
- 
-a.	PIR sensor is used to detect the exitance of someone in front of the door which is the triggering event for the system. The PIR sensor wase chosen over other occupancy sensors because it uses the infrared radiation related to emitted heat to get the difference between background heat and heat emitted by moving object. This way of sensing eliminates unnecessary triggering of the system by any moving object and triggers it when a human shows up in front of the door.
-b.	The sensor senses the existence of a human then it sets its digital output high for a specific duration then it drives it low again 
-c.	The rang within which the sensor detects human activities can be adjusted. It ranges from 3 meters to 7 meters. 
-d.	At this phase we left the mode and the sensitivity rage as default.
+![download](https://user-images.githubusercontent.com/60285497/144701620-39ae68fd-cf77-4aa1-aa0f-635919dfb6a4.jpg)
+
+    a.	PIR sensor is used to detect the exitance of someone in front of the door which is the triggering event for the system. The PIR sensor wase chosen over other occupancy          sensors because it uses the infrared radiation related to emitted heat to get the difference between background heat and heat emitted by moving object. This way of              sensing eliminates unnecessary triggering of the system by any moving object and triggers it when a human shows up in front of the door.
+    b.	The sensor senses the existence of a human then it sets its digital output high for a specific duration then it drives it low again 
+    c.	The rang within which the sensor detects human activities can be adjusted. It ranges from 3 meters to 7 meters. 
+    d.	At this phase we left the mode and the sensitivity rage as default.
 4.	USB-to-TTL Module
 a.	This module is used to communicate with the ESP32-CAM module during programing and debugging. 
 
