@@ -18,7 +18,9 @@ Smart secured Lock system with:
 ## Hardware Components:
 ![image](https://user-images.githubusercontent.com/72893623/143673083-8263de9f-b8ff-45a2-8655-3f077c83531c.png)
 
-
+## Hardware Components Usage Refrence:
+### PIR Sensor
+### ESP32 Cam
 
 ## System Block Diagram
 ![Embedded_project](https://user-images.githubusercontent.com/79912650/143672655-c7f22813-642c-4c53-a92b-fae39fb25447.png)
