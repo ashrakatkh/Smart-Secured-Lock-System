@@ -42,6 +42,7 @@ Smart secured Lock system with:
 * The 3.3V pin in ESP32 is connected to the vdd of the USB-TTL and gnd is connected to gnd while GPIO 3 (RX) is connected to TX and GPIO 1 (TX) is connected to RX. 
 Note: while uploading the chip, GPIO 0 must be connected to ground.
 * After uploading the code on the ESP32 module, The wire connecting GPIO 0 to gnd is removed and the restart button is pressed
+* Note: There are different models for the ESP32 cam, the one we are using is the AI thinker
 
 *Software:*
 * Arduino IDE
@@ -49,8 +50,4 @@ Note: while uploading the chip, GPIO 0 must be connected to ground.
 
 ## Timeline:
 ![WhatsApp Image 2021-11-27 at 9 40 29 AM](https://user-images.githubusercontent.com/79912650/143672870-61a3287c-9d7d-415c-80f5-151356e83c21.jpeg)
-
-## Demo
-video link: https://drive.google.com/file/d/1MOrTH0CufxyeCBV7rKbK48qbX1alhv68/view?usp=sharing
-
 
