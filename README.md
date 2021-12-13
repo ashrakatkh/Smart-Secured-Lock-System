@@ -133,5 +133,10 @@ Note: while uploading the chip, GPIO 0 must be connected to ground.
 video link:https://drive.google.com/file/d/1MOrTH0CufxyeCBV7rKbK48qbX1alhv68/view?usp=sharing
 
 # References
-[PIR sensor datasheet] (https://www.jameco.com/Jameco/Products/ProdDS/2082927.pdf)
+[PIR sensor datasheet](https://www.jameco.com/Jameco/Products/ProdDS/2082927.pdf)
+[ESP32Cam datasheet](https://loboris.eu/ESP32/ESP32-CAM%20Product%20Specification.pdf)
+[Bluetooth module datasheet](https://components101.com/wireless/hc-06-bluetooth-module-pinout-datasheet)
+[Mp3 module Datasheet](http://www.datasheetcafe.com/gpd2856a-datasheet-mp3-player-chip/)
+[ESP32Cam Interface](https://randomnerdtutorials.com/esp32-cam-take-photo-display-web-server/)
+
 
