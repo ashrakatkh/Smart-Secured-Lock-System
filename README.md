@@ -174,9 +174,14 @@ Note: while uploading the chip, GPIO 0 must be connected to ground.
 
 ## Demo
 ### Circuit: 
+
 ![cirrcuit](https://user-images.githubusercontent.com/72893623/144700974-b3fc6eb1-14aa-4cde-aaba-31d21f1f79ae.jpeg)
 
-video link:https://drive.google.com/file/d/1MOrTH0CufxyeCBV7rKbK48qbX1alhv68/view?usp=sharing
+![WhatsApp Image 2021-12-13 at 7 34 52 AM](https://user-images.githubusercontent.com/72893623/145771994-e1cab318-3e93-4e18-952d-0e1efdd4eecf.jpeg)
+
+
+[Demo1 video](https://drive.google.com/file/d/1MOrTH0CufxyeCBV7rKbK48qbX1alhv68/view?usp=sharing)
+[Demo2 Video](https://drive.google.com/file/d/14Tt5DbWyrBwRk7SU4EDZgVIDwFuSre7m/view?usp=sharing)
 
 # References
 * [PIR sensor datasheet](https://www.jameco.com/Jameco/Products/ProdDS/2082927.pdf)
