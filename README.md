@@ -19,14 +19,14 @@ Smart secured Lock system with:
 
 ## Hardware Components:
 
-1.	STM32l432kc
+### 1.	STM32l432kc
 
 ![image](https://www.st.com/bin/ecommerce/api/image.PF263436.en.feature-description-include-personalized-no-cpn-large.jpg)
 
    a. STM32l432kc is the microcontroller used in Smart-Secured-Lock-System
  
-   b.	It is an ARM cortex M4 based processor that is used to get the data from the sensors, such as PIR, process it and control the actuators, such as the relay, based on the          given data.
-2.	ESP32-CAM Development Board
+   b.	It is an ARM cortex M4 based processor that is used to get the data from the sensors, such as PIR, process it and control the actuators, such as the relay, based on the          given data. <br />
+### 2.	ESP32-CAM Development Board
 
 ![esp32_cam](https://user-images.githubusercontent.com/60285497/144701594-a0dca91d-e736-4b81-b18b-a47df962c27c.jpg)
 
@@ -34,8 +34,8 @@ Smart secured Lock system with:
    a.	ESP32-CAM is used in different functionalities of the system. It contains the camera, OV260 camera module, that is used for capturing the image of the intruder. It              contains a Bluetooth module to read the password from the user and a Wi-Fi module that will be used to send the image of the intruder over the internet to the webserver. 
   
    b.	When the password is entered incorrectly for three times the microcontroller will set a GPIO pin high that is connected to a GPIO pin in the ESP32-CAM. If this pin is            high, then an image will be taken and sent to the web server.
-   c. You can find the code relted to ESP32 cam [here](https://github.com/ashrakatkh/Smart-Secured-Lock-System/blob/main/Progress%202/ESP32_cam/webpage_test.ino)
-3.	PIR motion detection sensor 
+   c. You can find the code relted to ESP32 cam [here](https://github.com/ashrakatkh/Smart-Secured-Lock-System/blob/main/Progress%202/ESP32_cam/webpage_test.ino) <br />
+### 3.	PIR motion detection sensor 
 
 ![download](https://user-images.githubusercontent.com/60285497/144701620-39ae68fd-cf77-4aa1-aa0f-635919dfb6a4.jpg)
 
@@ -48,29 +48,29 @@ Smart secured Lock system with:
    
    d.	At this phase we left the mode and the sensitivity rage as default.
    e. You can find the code realted to PIR sensor [here](https://github.com/ashrakatkh/Smart-Secured-Lock-System/blob/main/Progress%202/PIR_sensor/Core/Inc/main.c) <br />
-4.	USB-to-TTL Module
+### 4.	USB-to-TTL Module
 
 ![41LgYDO6bmL _AC_UL210_SR210,210_](https://user-images.githubusercontent.com/60285497/144702082-5b2308a6-3e94-4251-8310-a55d1c036465.jpg)
 
-   a.	This module is used to communicate with the ESP32-CAM module during programing and debugging. 
+   a.	This module is used to communicate with the ESP32-CAM module during programing and debugging. <br />
 
-5.	LED
+### 5.	LED
 
 ![5mm-diffused-water-clear-500x500](https://user-images.githubusercontent.com/60285497/144702288-741abfb3-2334-4dc3-af1d-33c6605c796e.jpg)
 
 
-   a.	LEDs are used as a visual alert to inform the resident about the existence of an intruder.
-6.	MP3 Mini Player
+   a.	LEDs are used as a visual alert to inform the resident about the existence of an intruder. <br />
+### 6.	MP3 Mini Player
 
 ![kit_m87_mp3](https://user-images.githubusercontent.com/60285497/144701956-6f018099-d409-4bea-b128-e4d4a7d4a4f0.jpg)
 
-   a.	MP3 Mini Player is used to play a recorded message that guide the user and if there is an intruder it alerts the residents.
-7.	Relay
+   a.	MP3 Mini Player is used to play a recorded message that guide the user and if there is an intruder it alerts the residents. <br />
+### 7.	Relay
 
  ![kit_1relay_fares](https://user-images.githubusercontent.com/60285497/144701973-89608930-9884-48ff-916d-6daea87c7e03.jpg)
 
-   a.	A relay module is used to control the 12v electric strike by receiving signal from microcontroller. 
-8.	Speaker:
+   a.	A relay module is used to control the 12v electric strike by receiving signal from microcontroller. <br />
+### 8.	Speaker:
 
 ![SP](https://user-images.githubusercontent.com/60285497/144701982-5dfc3c32-8351-4595-962f-dc3ae2c6a48f.jpg)
  
