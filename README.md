@@ -33,7 +33,7 @@ Smart secured Lock system with:
 
    a.	ESP32-CAM is used in different functionalities of the system. It contains the camera, OV260 camera module, that is used for capturing the image of the intruder. It              contains a Bluetooth module to read the password from the user and a Wi-Fi module that will be used to send the image of the intruder over the internet to the webserver. 
   
-   b.	When the password is entered incorrectly for three times the microcontroller will set a GPIO pin high that is connected to a GPIO pin in the ESP32-CAM. If this pin is            high, then an image will be taken and sent to the web server.
+   b.	When the password is entered incorrectly for three times the microcontroller will set a GPIO pin high that is connected to a GPIO pin in the ESP32-CAM. If this pin is            high, then an image will be taken and sent to the web server. <br />
    c. You can find the code relted to ESP32 cam [here](https://github.com/ashrakatkh/Smart-Secured-Lock-System/blob/main/Progress%202/ESP32_cam/webpage_test.ino) <br />
 ### 3.	PIR motion detection sensor 
 
