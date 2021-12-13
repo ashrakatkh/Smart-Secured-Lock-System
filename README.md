@@ -155,7 +155,7 @@ Note: while uploading the chip, GPIO 0 must be connected to ground.
 ### Relay module
 <img width="385" alt="relay" src="https://user-images.githubusercontent.com/72893623/145763257-fa9bd768-75bb-49a2-8ae5-53540c446493.png">
 
-*Hardware: *
+*Hardware:*
 * The VCC is connected to the VCC output of the MCU and the ground pin is connected to ground.
 * The input pin is connected to the pin D6 of the MCU which outputs high when the user enters the password wrong for 3 times
 * The normally open pin is connected to the positive pin of the MP3 module
