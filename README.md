@@ -117,9 +117,8 @@ Smart secured Lock system with:
 ### Connect  the MP3 module and the SPeaker 
 
 * Understand how Mp3 module works
-* Upload alarm audio on a USB and connect it to the MP3 module
-* Connect camera with mcu
-* Camera is programed to take photo when password is wrong for three times
+* Upload alarm audio on a USB and connect it to the MP3 module and the speaker
+
 
 
 
