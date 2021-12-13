@@ -99,6 +99,21 @@ Smart secured Lock system with:
 * Connect camera with mcu
 * Program Camera to take photo when GPIO4 is high and connect GPIO4 to mcu GPIO output A5 which is high when the password is entered wrong for three consecutive times
 
+## Progress III:
+
+### Simulate the opening of the door:
+* We programmed a GPIO output pin to output high when the user enters a right password
+* We connected the GPIO output to a  green led to simulate the opening the door 
+
+### Connect  the MP3 module and the SPeaker 
+
+* Understand how Mp3 module works
+* Upload alarm audio on a USB and connect it to the MP3 module
+* Connect camera with mcu
+* Camera is programed to take photo when password is wrong for three times
+
+
+
 
 ## Components Usage Refrence:
 
@@ -124,6 +139,31 @@ Note: while uploading the chip, GPIO 0 must be connected to ground.
 * For the software, to connect the ESP32 to wifi you will need to download two libraries and add them to the Arduino IDE: ESPAsyncWebServer which requires AsyncTCP
 * You will need to have an HTML code for the webpage you want to display.
 * You can use  Arduino IDE Serial Monitor to make the IP address appear on it after pressing the reset button.
+
+
+### MP3 module & the speaker
+<img width="480" alt="mp3" src="https://user-images.githubusercontent.com/72893623/145761419-43fdb955-97fa-4374-bf73-90f4f42ea142.png">
+
+*Hardware:*
+* The mp3 module needs a power supply range from 3.7 to 5.5 volt
+* The GPIO pin PB1 ,which outputs high when the user enters the password for three times, is connected to a 5V relay. The output of the relay is connect to the positive pin of the MP3 module to power it.
+* The negative pin is connected to the ground of the circuit
+* a USB with an uploaded buzzer audio sound is connect to the mp3 module usb interface
+* The mp3 module is connected to the speaker with an aux connection
+
+
+### Relay module
+<img width="385" alt="relay" src="https://user-images.githubusercontent.com/72893623/145763257-fa9bd768-75bb-49a2-8ae5-53540c446493.png">
+
+*Hardware: *
+* The VCC is connected to the VCC output of the MCU and the ground pin is connected to ground.
+* The input pin is connected to the pin D6 of the MCU which outputs high when the user enters the password wrong for 3 times
+* The normally open pin is connected to the positive pin of the MP3 module
+* The common pin is connected to 5v source
+
+
+
+
 
 
 ## Demo
