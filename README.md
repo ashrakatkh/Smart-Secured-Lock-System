@@ -79,6 +79,10 @@ Smart secured Lock system with:
 ## System Block Diagram
 ![Embedded_project](https://user-images.githubusercontent.com/79912650/143672655-c7f22813-642c-4c53-a92b-fae39fb25447.png)
 
+## Circuit Block Diagram
+![Embedded_project-Page-2 drawio](https://user-images.githubusercontent.com/60285497/145769835-11cf0865-c1b1-482a-8bbd-1545f215e6f1.png)
+
+
 ## Progress I:
 * We were able to bring all hardware components from workshop except for electric strike
 * We built the system using cubemx on FreeRtos
