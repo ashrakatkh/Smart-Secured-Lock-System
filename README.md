@@ -82,6 +82,9 @@ Smart secured Lock system with:
 ## Circuit Block Diagram
 ![Embedded_project-Page-2 drawio](https://user-images.githubusercontent.com/60285497/145769835-11cf0865-c1b1-482a-8bbd-1545f215e6f1.png)
 
+## Pinout and configuration 
+![em](https://user-images.githubusercontent.com/60285497/145772525-3bf4aef9-f76d-414e-ba03-e6bc25030cde.PNG)
+
 
 ## Progress I:
 * We were able to bring all hardware components from workshop except for electric strike
@@ -180,8 +183,8 @@ Note: while uploading the chip, GPIO 0 must be connected to ground.
 ![WhatsApp Image 2021-12-13 at 7 34 52 AM](https://user-images.githubusercontent.com/72893623/145771994-e1cab318-3e93-4e18-952d-0e1efdd4eecf.jpeg)
 
 
-* [Demo1 video](https://drive.google.com/file/d/1MOrTH0CufxyeCBV7rKbK48qbX1alhv68/view?usp=sharing)
-* [Demo2 Video](https://drive.google.com/file/d/14Tt5DbWyrBwRk7SU4EDZgVIDwFuSre7m/view?usp=sharing)
+[Demo1 video](https://drive.google.com/file/d/1MOrTH0CufxyeCBV7rKbK48qbX1alhv68/view?usp=sharing)
+[Demo2 Video](https://drive.google.com/file/d/14Tt5DbWyrBwRk7SU4EDZgVIDwFuSre7m/view?usp=sharing)
 
 # References
 * [PIR sensor datasheet](https://www.jameco.com/Jameco/Products/ProdDS/2082927.pdf)
