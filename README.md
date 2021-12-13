@@ -46,6 +46,7 @@ Smart secured Lock system with:
    c.	The rang within which the sensor detects human activities can be adjusted. It ranges from 3 meters to 7 meters. 
    
    d.	At this phase we left the mode and the sensitivity rage as default.
+   e. You can find the code realted to PIR sensor [here](https://github.com/ashrakatkh/Smart-Secured-Lock-System/blob/main/Progress%202/PIR_sensor/Core/Inc/main.c)
 4.	USB-to-TTL Module
 
 ![41LgYDO6bmL _AC_UL210_SR210,210_](https://user-images.githubusercontent.com/60285497/144702082-5b2308a6-3e94-4251-8310-a55d1c036465.jpg)
